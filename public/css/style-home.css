@@ -1,0 +1,27 @@
+html, body {
+    background-color: lightblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-heading {
+    background-color: lightblue;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.button-container {
+    background-color: lightblue;
+    /* height: 80vh; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
