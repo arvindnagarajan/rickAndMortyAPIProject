@@ -29,6 +29,8 @@ $("#signInGoogleButton").click(function() {
             console.log(emailVerified);
         }
 
+        window.location.href = "/generator";
+
   }).catch((error) => {
 
     const errorCode = error.code;
