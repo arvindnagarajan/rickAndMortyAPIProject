@@ -24,6 +24,9 @@ app.get('/generator', (req, res) => {
   res.sendFile(path.join(__dirname, 'public/', 'generator.html'));
 });
 
+app.get('/trivia', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public/', 'trivia.html'));
+});
 
 
 app.listen(8080, () => console.log('Rick and Morty App is listening on port 8080.'));
