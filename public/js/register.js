@@ -31,7 +31,6 @@ $("#createAccountButton").click(function() {
             }
         });
 
-        window.location.href = "/dashboard";
     })
     .catch((error) => {
         const errorCode = error.code;

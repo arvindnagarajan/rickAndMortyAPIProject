@@ -84,7 +84,7 @@ $("#signInGoogleButton").click(function() {
             console.log(emailVerified);
         }
 
-        window.location.href = "/generator";
+        window.location.href = "/dashboard";
 
   }).catch((error) => {
 
