@@ -35,7 +35,7 @@ html, body {
 .image-container {
   display: flex;
   justify-content: space-evenly;
-  padding: 150px;
+  padding: 100px 150px;
 }
 
 .live-score {
