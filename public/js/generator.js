@@ -89,18 +89,6 @@ $("#generate").click(function() {
 })
 
 
-let startCount = 60;
-
-setInterval(function() {
-
-    if(startCount == 0) {
-        $("#countdown").text("Completed!");
-    }
-    else {
-        $("#countdown").text(startCount--);
-    }
-
-}, 1000);
 
 document.addEventListener("keyup", function(event) {
     if (event.key === " ") {

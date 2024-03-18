@@ -38,6 +38,15 @@ html, body {
   padding: 100px 150px;
 }
 
+#game-title {
+  display: flex;
+  justify-content: center;
+}
+
+#form1 {
+  border: 2px solid black;
+}
+
 .live-score {
   display: flex;
   justify-content: end;
@@ -62,6 +71,16 @@ html, body {
 
 .custom-button:hover {
   background-color: #0056b3;
+}
+
+#submit-div {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+#submit-button {
+  padding: 10px 5px;
 }
 
 
@@ -108,11 +127,12 @@ html, body {
   width: auto;
   max-width: 400px;
   min-width: min-content;
-
   /* Center horizontally */
-  margin: 10px auto;
+  margin: 50px auto;
   display: block;
 }
+
+
 
   
 .gsi-material-button .gsi-material-button-icon {
