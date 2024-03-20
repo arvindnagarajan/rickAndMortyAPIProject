@@ -35,7 +35,7 @@ html, body {
 .image-container {
   display: flex;
   justify-content: space-evenly;
-  padding: 100px 150px;
+  padding: 60px 150px;
 }
 
 #game-title {
@@ -97,6 +97,16 @@ html, body {
   margin: 0 50px;
 }
 
+#user-answer {
+  padding: 10px 15px;
+  margin: 0 15px;
+}
+
+#user-selected-character {
+  padding: 0 15px;
+  margin: 0 20px;
+}
+
 .gsi-material-button {
   /* -moz-user-select: none;
   -webkit-user-select: none;
@@ -131,9 +141,6 @@ html, body {
   margin: 50px auto;
   display: block;
 }
-
-
-
   
 .gsi-material-button .gsi-material-button-icon {
   height: 20px;
