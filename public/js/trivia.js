@@ -1,4 +1,4 @@
-import { createUserWithEmailAndPassword } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js'
+import { signOut } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js'
 import {app, auth} from './firebase.js';
 
 let characterAnswer;
@@ -76,6 +76,9 @@ async function startCountdown() {
 
 
 function checkAnswer(userAnswer, expectedAnswer) {
+
+    userAnswer = userAnswer.toLowerCase();
+    expectedAnswer = expectedAnswer.toLowerCase();
 
     if(userAnswer === expectedAnswer) {
         Swal.fire({

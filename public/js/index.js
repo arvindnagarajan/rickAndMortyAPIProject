@@ -82,9 +82,9 @@ $("#signInGoogleButton").click(function() {
             console.log(email);
             console.log(photoURL);
             console.log(emailVerified);
-        }
 
-        window.location.href = "/dashboard";
+            window.location.href = "/dashboard";
+        }
 
   }).catch((error) => {
 
